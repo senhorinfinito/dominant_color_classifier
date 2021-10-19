@@ -14,11 +14,6 @@ Put input folder in the root folder and simply run:
  
     python Classification.py
     
-## Results
-![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/red.PNG)
-![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/green.PNG)
-![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/blue.PNG)
-![](https://github.com/Louis24/Classify-Images-by-Dominant-Color/blob/master/src/other.PNG)
 
 ## Limitation
 i. There is a resize operation in preprocessing step, the resized image is 10*10.  
@@ -29,13 +24,7 @@ x=x/(total-grey)
 There is a situation that image only contain grey scale color. So the equation is modified to:  
 x=x/(total-grey+1)  
 
-## Cites
-This project was inspired by the Author "The Coding Train"  
-Here is the youtube playlist  
-https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bmMRCIoTi72aNWHo7epX4L  
-Also thanks to Andrea Santoro for the API  
-https://github.com/dedo24397/ColorClassifier  
-https://www.youtube.com/channel/UCTCIs0FhvaMI-0bp-wJaN3A  
+
 
 
 
