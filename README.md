@@ -16,10 +16,15 @@ Put input folder in the root folder and simply run jupyter notebook:
     
 
 ## Limitation
+
 i. There is a resize operation in preprocessing step, the resized image is 10*10.  
 since we do not care about the features in image, Only RGB is important.  
 Some of R,G,B maybe classify to "other" due to compress pixels reasons.  
+
 ii. Looking into the equation:  
-x=x/(total-grey)  
-There is a situation that image only contain grey scale color. So the equation is modified to:  
-x=x/(total-grey+1)  
+```x=x/(total-grey) ``` 
+
+There is a situation that image only contain grey scale color. 
+
+So the equation is modified to:  
+```x=x/(total-grey+1)```  
